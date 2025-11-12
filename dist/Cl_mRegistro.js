@@ -1,5 +1,5 @@
 import Cl_dcytDb from "https://gtplus.net/forms2/dcytDb/api/Cl_dcytDb.php?v251110-2150";
-import Cl_mEstudiante from "./Cl_mEstudiante";
+import Cl_mEstudiante from "./Cl_mEstudiante.js";
 export default class Cl_mRegistro {
     constructor() {
         this.registro = [];

@@ -1,5 +1,5 @@
 import Cl_dcytDb from "https://gtplus.net/forms2/dcytDb/api/Cl_dcytDb.php?v251110-2150";
-import Cl_mEstudiante, { iEstudiante } from "./Cl_mEstudiante";
+import Cl_mEstudiante, { iEstudiante } from "./Cl_mEstudiante.js";
 
 interface iResultObjects {
     objects: [iEstudiante] | null;

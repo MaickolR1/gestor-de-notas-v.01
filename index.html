@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la página y de la vista previa (WhatsApp) -->
+    <title>Mi Registro (v.01)</title>
+    <meta property="og:title" content="Mi Registrov.01" />
+    <!-- Descripción corta y atractiva -->
+    <meta property="og:description" content="Mi Registro de Estudiantes >UCLA-DCyT<" />
+    <!-- Imagen que se muestra en WhatsApp (logo o imagen destacada, 800x418 px recomendado) -->
+    <meta property="og:image" content="https://llllllll/resources/logo.png" />
+    <!-- URL del proyecto -->
+    <meta property="og:url" content="https://mi-agenda-v01.vercel.app" />
+    <!-- Tipo de contenido -->
+    <meta property="og:type" content="website" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="???????????">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="styles.css?v251103-1750" />
+</head>
+
+<body>
+    <h3 style="width: 320px;">MI REGISTRO DE ESTUDIANTES</h3>
+    <section id="Registro">
+        <div>
+            <button id="Registro_btAgregarEstudiante">Agregar Estudiante</button>
+        </div>
+    </section>
+    <section style="font-size: 10px;">
+        <h3>ESTUDIANTES REGISTRADOS</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 100px;">ID</th>
+                    <th style="width: 80px;">Nombre</th>
+                    <th style="width: 100px;">Asignatura</th>
+                </tr>
+            </thead>
+            <tbody id="Registro_divEstudiantesRegistrados"> </tbody>
+        </table>
+    </section>
+    <script type="module">
+        import Cl_index from "./dist/Cl_index.js";
+        new Cl_index()
+    </script>
+</body>
+
+</html>
